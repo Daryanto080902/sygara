@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Landing Page Daryanto</title>
+
+  <!-- Bootstrap 5.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Optional Custom CSS -->
+  <style>
+    header {
+      background: linear-gradient(to right, #0d6efd, #6610f2);
+      color: white;
+      padding: 100px 0;
+      text-align: center;
+    }
+    .features {
+      padding: 60px 0;
+    }
+    footer {
+      background: #f8f9fa;
+      padding: 30px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="/aset/logo.png" alt="" width="150px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#beranda">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#fitur">Fitur</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#kontak">Kontak</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO / HEADER -->
+  <header id="beranda">
+    <div class="container">
+      <h1 class="display-4 mb-4">Selamat Datang di landing page</h1>
+      <a href="#fitur" class="btn btn-light">Lihat Fitur</a>
+    </div>
+  </header>
+
+  <!-- SECTION: FITUR -->
+  <section id="fitur" class="features text-center">
+    <div class="container">
+      <h2 class="mb-3">Fitur Kami</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Responsif</h4>
+          <p>Desain menyesuaikan semua ukuran layar.</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Mudah Digunakan</h4>
+          <p>Langsung pakai tanpa coding rumit.</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Gratis</h4>
+          <p>Tidak perlu bayar, cukup pakai dan modifikasi!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION: KONTAK -->
+  <section id="kontak" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Hubungi Kami</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="nama" class="form-label">Nama</label>
+              <input type="text" class="form-control" id="nama" placeholder="Nama Anda">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="nama@email.com">
+            </div>
+            <div class="mb-3">
+              <label for="pesan" class="form-label">Pesan</label>
+              <textarea class="form-control" id="pesan" rows="4" placeholder="Tulis pesan Anda di sini..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Kirim</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p class="mb-0">© 2025 landing page dibuat oleh daryanto</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
