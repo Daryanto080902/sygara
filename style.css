@@ -96,7 +96,7 @@
 }
 
 #cta .bg-cta {
-  background-image: url(/aset/background\ sayuran.jpg);
+  background-image: url(sayuran.jpg);
   background-size: cover;
   background-position: center;
   height: 600px;
