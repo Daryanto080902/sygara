@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sygara | Groceries Marketplacet</title>
+
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="/aset/logo.png" alt="" width="135px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="#hero">Beranda</a>
+            <a class="nav-link" href="#produk">Produk</a>
+            <a class="nav-link" href="#About">About</a>
+            <div class="vr ms-3 me-3"></div>
+            <a class="btn btn-outline-success me-3" href="#">Masuk</a>
+            <a class="btn btn-success" href="#">Daftar</a>
+          </div>
+          <div class="vr ms-3 me-3"></div>
+          <div class="bi bi-cart2">
+            <div class="btn-keranjang">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="25"
+                fill="currentColor"
+                class="bi bi-cart2"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="bi bi-chat-dots">
+            <div class="btn-keranjang">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="25"
+                fill="currentColor"
+                class="bi bi-chat-dots"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2"
+                />
+                <path
+                  d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9 9 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.4 10.4 0 0 1-.524 2.318l-.003.011a11 11 0 0 1-.244.637c-.079.186.074.394.273.362a22 22 0 0 0 .693-.125m.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6-3.004 6-7 6a8 8 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a11 11 0 0 0 .398-2"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero -->
+    <section id="hero">
+      <div class="container pt-3 mt-5">
+        <div class="bg-hero d-flex align-items-center ps-5">
+          <div class="row">
+            <div class="col">
+              <h1 class="text-success">
+                Natural dan Segar <br />untuk kesehatan
+              </h1>
+              <button class="btn btn-outline-success">Belanja Sekarang</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- produk -->
+    <section class="Produk" id="produk">
+      <div class="container text-center">
+        <h3 class="text-success mb-3 mt-5">Pilihan Buah & Sayur Segar</h3>
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="card">
+              <img src="/aset/pisang.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Pisang Cavendish</h5>
+                <p class="card-text">Rp. 15.000</p>
+                <div class="d-flex justify-content-between mt-2">
+                  <button type="button-produk" class="btn btn-success">
+                    Beli Sekarang
+                  </button>
+                  <button type="button-produk" class="btn btn-outline-success">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-cart4"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"
+                      />
+                    </svg>
+                    Keranjang
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="card">
+              <img src="/aset/jeruk.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Jeruk Sunkist</h5>
+                <p class="card-text">Rp. 15.000</p>
+                <div class="d-flex justify-content-between mt-2">
+                  <button type="button-produk" class="btn btn-success">
+                    Beli Sekarang
+                  </button>
+                  <button type="button-produk" class="btn btn-outline-success">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-cart4"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"
+                      />
+                    </svg>
+                    Keranjang
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="card">
+              <img src="/aset/apel.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Apel Fuji</h5>
+                <p class="card-text">Rp. 15.000</p>
+                <div class="d-flex justify-content-between mt-2">
+                  <button type="button-produk" class="btn btn-success">
+                    Beli Sekarang
+                  </button>
+                  <button type="button-produk" class="btn btn-outline-success">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-cart4"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"
+                      />
+                    </svg>
+                    Keranjang
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="card">
+              <img src="/aset/semangka.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Semangka</h5>
+                <p class="card-text">Rp. 15.000</p>
+                <div class="d-flex justify-content-between mt-2">
+                  <button type="button-produk" class="btn btn-success">
+                    Beli Sekarang
+                  </button>
+                  <button type="button-produk" class="btn btn-outline-success">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-cart4"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"
+                      />
+                    </svg>
+                    Keranjang
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+    <!-- about -->
+    <section class="about" id="About">
+      <div class="container mt-5">
+        <h3 class="text-center mb-3 text-success">Tentang Kami</h3>
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="bg-about">
+              <div class="teks-about">
+                <h2 class="text-success">
+                  produk yang dirawat & dipilih dengan kualitas terbaik
+                </h2>
+                <p>
+                  Memiliki buah dan sayur berkualitas dari hasil panen yang
+                  dijaga ketat agar kesegaran tetap dapat anda rasakan
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <img src="/aset/petani.jpg" alt="" width="100%" height="500" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- cta -->
+    <section id="cta">
+      <div class="container mt-5">
+        <div class="bg-cta d-flex align-items-center justify-content-center">
+          <div class="row">
+            <div class="col">
+              <img src="/aset/logo-putih.png" alt="" />
+              <h1 class="text-light" mt-3 mb-3>
+                Ayo Belanja sekarang dan mulai nikmati <br />kesegaran buah &
+                sayur yang sehat!
+              </h1>
+              <button class="btn btn-outline-light">Belanja Sekarang</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <p class="text-center mt-5">
+        Copyright &copy; Reserved 2025, Sygara under Sydemy
+      </p>
+    </footer>
+
+    <!-- boostrap js -->
+    <!--Navbar-->
+    <script>
+      window.addEventListener("scroll", function () {
+        const navbar = document.querySelector(".navbar");
+        if (window.scrollY > 50) {
+          navbar.classList.add("shadow-sm", "bg-white");
+        } else {
+          navbar.classList.remove("shadow-sm", "bg-white");
+        }
+      });
+    </script>
+
+    <!--scroll produk-->
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            const navbarHeight = document.querySelector(".navbar").offsetHeight;
+            const elementPosition = target.offsetTop;
+            window.scrollTo({
+              top: elementPosition - navbarHeight - 10, // offset tambahan
+              behavior: "smooth",
+            });
+          }
+        });
+      });
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
